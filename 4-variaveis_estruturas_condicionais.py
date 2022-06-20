@@ -9,10 +9,15 @@ mensagem de retorno deverá seguir o seguinte padrão
     "Seu salário com 25% de aumento é: [salário]"
     "Seu salário com 30% de aumento é: [salário]"
     "Seu salário com 50% de aumento é: [salário]"
+
+    Dica: No campo nome e sobrenome utilize os métodos strip() e title().
+          O primeiro método permite remover os espaços antes e após a string,
+          enquanto que o último permite colocar a string no formato titlecased
+          (capitaliza string).
 """
 
-nome = input('Digite seu nome: ')
-sobrenome = input('Digite seu sobrenome: ')
+nome = input('Digite seu nome: ').strip().title()
+sobrenome = input('Digite seu sobrenome: ').strip().title()
 salario_atual = float(input('Digite seu salário atual: '))
 
 # Utilizamos o \n para que o código faça a quebra de linha.
