@@ -12,4 +12,4 @@ if num > 1:
             print(f'O número {num} não é primo! ')
             break
     else:
-        print(f'O número {num} é primo! ')
+        print(f'O número {num} é primo!')
