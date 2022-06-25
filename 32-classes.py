@@ -1,4 +1,4 @@
-# Passando os parâmetros diretamente no construtor da classes
+# Passando os parâmetros diretamente no construtor da classe
 #
 # class Carro:
 #     def __init__(self, modelo, portas):
